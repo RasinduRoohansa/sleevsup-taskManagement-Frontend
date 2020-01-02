@@ -1,0 +1,30 @@
+#layoutContainer {
+    height: 830px;
+    background-color: #DDD;
+    position:relative;
+}
+
+#bigAvatar{
+      margin: 10px;
+      width: 60px;
+      height: 60px;
+  }
+#videoRoot{
+    flex-grow: 1;
+}
+#paper{
+    width: 340px;
+}
+#agentModal{
+    position: absolute;
+    width: 400px;
+    height: 245px;
+    outline: none;
+    background-color: #ffffff;
+    transform: translate(-44%, -57%);
+    left: 50%;
+    top: 50%;
+}
+.textField{
+    margin-left: 10px;
+}
